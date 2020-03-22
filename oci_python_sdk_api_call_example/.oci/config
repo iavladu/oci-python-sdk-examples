@@ -1,0 +1,7 @@
+
+[DEFAULT]
+user=<MY USER OCID>
+fingerprint=<MY API KEY FINGERPRING>
+key_file=<PATH TO MY API KEY>
+tenancy=<MY TENANCY OCID>
+region=eu-frankfurt-1
