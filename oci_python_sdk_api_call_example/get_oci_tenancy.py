@@ -1,5 +1,6 @@
 
 import oci
+""" Example used in this article: https://mytechretreat.com/how-to-use-the-oci-python-sdk-to-make-api-calls/ """
 
 # get the config from file for the DEFAULT profile
 config = oci.config.from_file("./.oci/config", "DEFAULT")

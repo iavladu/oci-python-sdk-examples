@@ -8,7 +8,7 @@ class OCICalls(object):
         self.generate_signer_from_instance_principals()
 
         # call apis
-        self.get_tenant()
+        self.get_compute_list()
     
     def generate_signer_from_instance_principals(self):
         try:
@@ -22,7 +22,7 @@ class OCICalls(object):
         self.config = {'region': self.signer.region, 'tenancy': self.signer.tenancy_id}
         
     
-    def get_tenant(self):
+    def get_compute_list(self):
         # initialize the IdentityClient with an empty config and only a signer
         identity_client = oci.identity.IdentityClient(config = {}, signer=self.signer )
         
