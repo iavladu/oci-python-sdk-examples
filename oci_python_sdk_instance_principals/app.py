@@ -1,5 +1,5 @@
 import oci
-""" This is an example used in this article:  """
+""" This is an example used in this article: https://mytechretreat.com/use-instance-principals-with-oci-python-sdk/ """
 
 class OCICalls(object):
     def __init__(self):
